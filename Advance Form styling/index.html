@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  class="cForm" onsubmit=" return Handler(event)" method="post">
+    <div class="container">
+            <label for="name">Name:</label>
+            <input type="text" class="name" id="name" required>
+            <b id="nameErr" class="E"></b>
+        </div>
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="text" class="email" id="email" required>
+            <b id="emailErr" class="E"></b>
+        </div>
+        <div class="mobile">
+            <label for="mobile">Mobile-Num:</label>
+            <input type="text" class="mobile" id="mobile" required>
+            <b id="mobileErr" class="E"></b>
+        </div>
+        <div class="gender">
+            <label for="gen">Gender:</label>
+            <input type="radio" name="gen" value="Male" required>Male
+            <input type="radio" name="gen"  value="Female" required>Female
+            <b id="genderErr" class="E"></b>
+        </div>
+        <div class="course">
+            <label for="course">Courses:</label>
+            <input type="checkbox" name="course" value="HTML"  >HTML
+            <input type="checkbox" name="course" value="Css"  >Css
+            <input type="checkbox" name="course" value="JS"  >JS
+            <input type="checkbox" name="course" value="DBmysql"  >DBmysql
+            <b id="courseErr" class="E"></b>
+        </div>
+        <div class="btn">
+            <button type="submit" class="btn1">Submit</button>
+        </div>
+    </div>
+</form>
+<script src="./script.js">
+</script>
+</body>
+</html>

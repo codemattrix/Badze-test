@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding: 0;
+    background-color: gray;
+}
+.cForm{
+    position: relative;
+    top: 10px;
+    margin: auto;
+   width: 600px;
+   background-color: azure;
+   height: 600px;
+   padding: 10px 20px;
+}
+div{
+    margin: 10px;
+    grid-template-columns:repeat(100px,1fr);
+}
